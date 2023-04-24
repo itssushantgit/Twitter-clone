@@ -1,0 +1,145 @@
+
+.sign-upbtn{
+    border-radius: 30px;
+    padding: 11px;
+    display: flex;
+    cursor: pointer;
+    border: 1px solid var(--twitter-background);
+    
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 25%;
+    background-color:var(--twitter-color);
+    justify-content: center;
+    align-items: center;
+    color:#f5f5f5 !important;
+    text-decoration: none !important;
+    
+
+   
+}
+
+
+.login_twitterIcon{
+color:var(--twitter-color);
+font-size: 130px !important;
+
+   
+
+
+}
+.login_GoogleIcon{
+    font-size: 20px !important;
+}
+.sign-inbtn:hover{
+    background-color: var(--twitter-color) !important;
+    color: #f5f5f5 !important;
+    text-decoration: none !important;
+}
+.sign-upbtn:hover{
+    background-color:var(--twitter-background) !important;
+    color: #4e4a4a !important;
+}
+
+.heading{
+    margin-left: 45%;
+    position: absolute;
+    top: 5px;
+    color: #4e4a4a;
+    
+   
+    
+}
+.sub-head{
+    margin-left: 6%;
+    margin-top: 6%;
+    color: #4e4a4a;
+    
+   
+   
+}
+h3{
+    margin-top: 40px;
+    margin-left: 5%;
+    color: #4e4a4a;
+}
+.Home_headleft{
+    font-size: 100px;
+  
+}
+.Home_headleft a{
+    color: rgb(17, 178, 227);
+    margin-left: 20px ;
+}
+.sign-inbtn{
+    border-radius: 30px;
+    padding: 11px;
+   
+    cursor: pointer;
+    border: 1px solid whitesmoke;
+    background-color: var(--twitter-background) !important;
+    color: #4e4a4a !important;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 25%;
+ 
+    justify-content: center;
+
+}
+.policies-text{
+    width: 20rem;
+    margin-top: 15px;
+    font-size: 0.8rem;
+    color: #aaa8a8;
+    margin-left: 20px;
+}
+.policies-text a{
+    color: rgb(11, 162, 244);
+    text-decoration: none;
+}
+.footer{
+    display: flex;
+    font-size: 0.8rem;
+    flex-direction: column;
+    align-items: center;
+    
+    margin-top: 20%;
+}
+.footer-items{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+   
+}
+.footer-list{
+    margin: 0.5rem;
+}
+.footer-list a{
+    color: #c1c1c1;
+    text-decoration: none;
+}
+.footer-list a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.widgets_Container{
+    display: flex;
+ 
+    border:none !important;
+ 
+    position: absolute;
+    top: 7%;
+    right: 0;
+    border: none;
+  
+
+}
+.happening {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 18%;
+    
+   
+}

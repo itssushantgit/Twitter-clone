@@ -1,0 +1,72 @@
+.post{
+    display: flex;
+    transition: background-color 0.2s;
+  
+    padding: 1rem;
+    border-bottom: 1px solid var(--twitter-background);
+}
+.post:hover{
+    background-color:whitesmoke;
+}
+.post_content{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+}
+.post_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.post_title h3 ,.post_title h4{
+    margin: 0;
+    padding: 0;
+}
+.post_title{
+    display: flex;
+    align-items: center;
+}
+.morehoriz_icon{
+ cursor: pointer;
+}
+/* .morehoriz_icon :hover{
+  color: var(--twitter-color);
+    
+  
+
+} */
+.post_media img{
+    border-radius: 13px;
+    max-width: 100%;
+    max-height: 100%;
+    cursor: pointer;
+
+}
+
+.post_title h3{
+    font-size: 1rem;
+
+}
+.post_avatar{
+    cursor: pointer;
+}
+.post_title h4{
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+    font-weight: 400;
+    color: var(--twitter-background);
+    cursor: pointer;
+
+}
+.post_desc{
+    font-size: 13px;
+    padding: 8px;
+}
+.post_footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: .8rem;
+   
+}

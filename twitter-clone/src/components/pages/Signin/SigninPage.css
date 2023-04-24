@@ -1,0 +1,93 @@
+/* .signinpage{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_pgoHuvuMGt_8ovZZra-dq4ZuQCHA3XsBRw&usqp=CAU);
+height: 100%;
+} */
+.signin_twitter-icon{
+    color: var(--twitter-color);
+    font-size: 35px;
+}
+.signin_top{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+   
+}
+.signin_header{
+  display: flex;
+  justify-content: center;
+    margin-top: 5%;
+    margin-left: 20px;
+    color: var(--twitter-color);
+
+}
+.signin_body{
+   
+    margin-top: 2%;
+border: 2px solid rgb(139, 193, 200);
+border-radius: 30px;
+   width: 30%;
+   padding: 5%;
+margin-left: 33%;
+
+
+
+}
+.signin_content input{
+    border: none;
+   height:3rem ; 
+   width: 100%;
+   border-bottom: 1px solid var(--twitter-background);
+margin-bottom: 1rem;
+border-radius: 10px;
+
+}
+.signin_content input::placeholder{
+    font-size:0.9rem ;
+   
+}
+.signin_footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    margin-left: 2%;
+
+}
+.signin_footer a{
+    margin-left: 60px;
+}
+
+.signin_content{
+   
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1px;
+}
+Button{
+    background-color: var(--twitter-color) !important;
+    border: none !important;
+    color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    border-radius: 20px !important;
+    height: 50px !important;
+    margin-left: 5%;
+   
+}
+.sininbox_footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.sininbox_footer h4{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 900;
+   
+}
+.sininbox_footer input{
+    border: none;
+    margin-top: 13px;
+}
+.GoogleLogin{
+    border-radius: 30px !important;
+}
